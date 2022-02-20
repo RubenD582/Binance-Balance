@@ -1,5 +1,9 @@
-Flask=2.0.3
-requests=2.27.1
-python-binance=1.0.15
-pandas=1.4.
-gunicorn
+Flask==2.0.2
+gunicorn==20.1.0
+pandas==1.4.0
+python-binance==1.0.15
+requests==2.2.0
+ujson==5.1.0
+uritemplate==4.1.1
+urllib3==1.26.8
+websockets==9.1
