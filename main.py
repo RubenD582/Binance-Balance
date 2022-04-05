@@ -15,9 +15,6 @@ def main():
     api = str(request.args['Api'])
     secret_key = str(request.args['SecretKey'])
 
-    # QIleDdQJSqnGpaH7JcxVVFF4JUkxl6F5YwqK5lL1aeY7hOSE49P36BGVsenPCkwd
-    # MpzFx4NCFSrst5YSI24cNMIYFdhse1fby26kE8LwWjjHAQyRQ5O1SodhAQwRzxFp
-
     client = Client(api, secret_key)
     account = client.get_account()
 
