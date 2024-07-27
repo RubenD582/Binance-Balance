@@ -23,7 +23,7 @@ def main():
     df = df[df["free"] > 0]
 
     total = 0
-    df = df.reset_index()  # make sure indexes pair with number of rows
+    df = df.reset_index()
     for index, row in df.iterrows():
         if not row['asset'] == "USDT":
             url = requests.get('https://api.binance.com/api/v1/ticker/price?symbol='+row['asset']+'USDT')
